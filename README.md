@@ -40,9 +40,15 @@ O 5W2H é uma ferramenta utilizada para planejamento e organização de ações 
 
 As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC é:
 •	What: Sistemas de portifólio do IBMEC
+
 •	Why: mostrar os projetos realizados pelos alunos do IBMEC, mostrando participantes e teses desses projetos.
+
 •	Who: Alunos do IBMEC, professores.
+
 •	When: Ao final do ano de 2024/2
+
 •	Where:  uma página web
+
 •	How: Usando linguagens de marcação como CSS e HTML e linguagens de programação como Java script. Além de conhecimentos em UI e UX.
+
 •	How much: 0 de custo financeiro e alguns meses de trabalho
