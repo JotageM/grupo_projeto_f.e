@@ -22,6 +22,7 @@ O propósito do sistema é a razão de sua existência, ou seja, o objetivo que 
 5W2H
 
 O 5W2H é uma ferramenta utilizada para planejamento e organização de ações e projetos. Ele busca responder sete perguntas essenciais para garantir que todos os aspectos do projeto sejam assimilados. As perguntas essenciais são:
+
 •	What 
 - O que o sistema tem que fazer?
 
@@ -45,6 +46,7 @@ O 5W2H é uma ferramenta utilizada para planejamento e organização de ações 
 
 
 As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC é:
+
 •	What: Sistemas de portifólio do IBMEC
 
 •	Why: mostrar os projetos realizados pelos alunos do IBMEC, mostrando participantes e teses desses projetos.
