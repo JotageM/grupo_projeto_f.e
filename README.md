@@ -24,16 +24,22 @@ O propósito do sistema é a razão de sua existência, ou seja, o objetivo que 
 O 5W2H é uma ferramenta utilizada para planejamento e organização de ações e projetos. Ele busca responder sete perguntas essenciais para garantir que todos os aspectos do projeto sejam assimilados. As perguntas essenciais são:
 •	What 
 - O que o sistema tem que fazer?
+
 •	Why
 - Por que o sistema existe?
+
 •	Who 
 - Quem vai utilizar o sistema?
+
 •	When
 - Quando o sistema será utilizado? 
+
 •	Where
 - Onde o sistema será implementado?
+
 •	How
 - Como o sistema vai ser implementado e desenvolvido?
+
 •	How much
 - Quanto o sistema vai custar?
 
