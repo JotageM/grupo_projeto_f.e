@@ -1,3 +1,6 @@
+nome do grupo:
+- Desbravadores do Front
+
 integrantes:
 - Gabriel Corrêa 
 - João Gabriel Miguel
