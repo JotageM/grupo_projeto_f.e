@@ -63,3 +63,29 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 •	How: **Perguntando ao cliente como ele quer que o software funcione** e usando linguagens de marcação como CSS e HTML e linguagens de programação como Java script. Além de conhecimentos em UI e UX.
 
 •	How much: 0 de custo financeiro e alguns meses de trabalho
+
+
+# Requisitos do sistma
+
+
+## Requisitos funcionais
+
+* O sistema precisa mostrar os cursos dos alunos
+* O sistema terá uma filtragem pelo nome do aluno e projeto
+* O sistema precisa ter imagens
+* A página inicial do sistema tem que estar mostrando alguns projetos
+* O sistema precisa ter a opção de "carregar mais"
+* O sistema terá um portifólio que vai listar os projetos
+* O sistema terá a descrição do projeto
+* O sistema terá uma opção para cadastro do projeto
+* O sistema irá mostrar quando o projeto começou e terminou
+
+## Requisitos não funcionais
+
+* O Sistema será aplicado no celular e no computador
+* O Sistema precisa estar em inglês e português
+* O Sistema será feito em React
+* O sistema terá a identidade visual da IBMEC
+
+
+
