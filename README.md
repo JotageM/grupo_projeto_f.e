@@ -56,7 +56,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 
 •	Who: Alunos do IBMEC, professores.
 
-•	When: Ao final do ano de 2024/2
+•	When: Quando alunos e professores concluírem seus projetos ou desejarem consultar o site para visualizar projetos já finalizados.
 
 •	Where: **Repositório do Github** e uma página web
 
