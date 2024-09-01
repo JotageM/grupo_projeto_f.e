@@ -17,7 +17,7 @@ Links repositórios individuais:
 
 
 
-Propósito do sistema
+#Propósito do sistema
 
 O propósito do sistema é a razão de sua existência, ou seja, o objetivo que o sistema foi desenvolvido para atingir. Já fazendo referência ao 5W2H, o propósito do sistema está relacionado ao WHY: por que o sistema é necessário?  E a resposta, se tratando do sistema de portifólios do Ibmec, é mostrar os projetos realizados pelos alunos do IBMEC, mostrando participantes e teses desses projetos.
 
