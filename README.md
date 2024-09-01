@@ -58,9 +58,9 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 
 •	When: Quando alunos e professores concluírem seus projetos ou desejarem consultar o site para visualizar projetos já finalizados.
 
-•	Where: **Repositório do Github** e uma página web
+•	Where: Repositório do Github e uma página web
 
-•	How: **Perguntando ao cliente como ele quer que o software funcione** e usando linguagens de marcação como CSS e HTML e linguagens de programação como Java script. Além de conhecimentos em UI e UX.
+•	How: Perguntando ao cliente como ele quer que o software funcione e usando linguagens de marcação como CSS e HTML e linguagens de programação como Java script. Além de conhecimentos em UI e UX.
 
 •	How much: 0 de custo financeiro e alguns meses de trabalho
 
