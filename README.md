@@ -72,7 +72,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 
 * O sistema irá mostrar os cursos dos alunos
 * O sistema terá uma filtragem pelo nome do aluno e projeto
-* O sistema deverá ter imagens
+* O sistema deverá ter imagens em cada projeto
 * A página inicial do sistema estará mostrando alguns projetos
 * O sistema terá a opção de "carregar mais"
 * O sistema terá um portifólio que vai listar os projetos
