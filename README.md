@@ -79,7 +79,8 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 * O sistema deverá ter a descrição do projeto
 * O sistema terá uma opção para cadastro do projeto
 * O sistema irá mostrar quando o projeto começou e terminou
-* O sistema deverá ser controlado e modificado pelo administrador
+* No sistema, o administrador deverá pdoer adicionar e disponibilizar os projetos no portifólio do Aluno
+* O sistema deverá ter um login para Administrador
 
 ## Requisitos não funcionais
 
