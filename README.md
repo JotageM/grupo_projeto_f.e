@@ -56,7 +56,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 
 •	Who: Alunos do IBMEC, professores.
 
-•	When: Quando alunos e professores concluírem seus projetos ou desejarem consultar o site para visualizar projetos já finalizados.
+•	When: Quando o usuário desejar consultar o site para visualizar projetos já finalizados ou em andamento.
 
 •	Where: Repositório do Github e uma página web
 
@@ -74,7 +74,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 * O sistema terá uma filtragem pelo nome do aluno e projeto
 * O sistema deverá ter imagens
 * A página inicial do sistema estará mostrando alguns projetos
-* O sistema precisa ter a opção de "carregar mais"
+* O sistema terá a opção de "carregar mais"
 * O sistema terá um portifólio que vai listar os projetos
 * A descrição do projeto estará no sistema
 * O sistema terá uma opção para cadastro do projeto
