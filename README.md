@@ -65,7 +65,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 •	How much: 0 de custo financeiro e alguns meses de trabalho
 
 
-# Requisitos do sistma
+# Requisitos do sistema
 
 
 ## Requisitos funcionais
