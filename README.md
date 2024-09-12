@@ -76,14 +76,14 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 * A página inicial do sistema estará mostrando alguns projetos
 * O sistema terá a opção de "carregar mais"
 * O sistema terá um portifólio que vai listar os projetos
-* A descrição do projeto estará no sistema
+* O sistema deverá ter a descrição do projeto
 * O sistema terá uma opção para cadastro do projeto
 * O sistema irá mostrar quando o projeto começou e terminou
 
 ## Requisitos não funcionais
 
 * O Sistema será aplicado no celular e no computador
-* O Sistema precisa estar em inglês e português
+* O Sistema estará em inglês e português
 * O Sistema será feito em React
 * O sistema terá a identidade visual da IBMEC
 
