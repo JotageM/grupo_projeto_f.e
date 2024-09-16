@@ -82,7 +82,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 9. O sistema irá mostrar quando o projeto começou e terminou
 10. No sistema, o administrador deverá pdoer adicionar e disponibilizar os projetos no portifólio do Aluno
     - O Adm poderá inserir
-     -oqhroihweljlwe 
+        - oqhroihweljlwe 
 12. O sistema deverá ter um login para Administrador
 
 ## Requisitos não funcionais
