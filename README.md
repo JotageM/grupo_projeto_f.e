@@ -60,7 +60,8 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 
 •	Where: Repositório do Github e uma página web
 
-•	How: Perguntando ao cliente como ele quer que o software funcione e usando linguagens de marcação como CSS e HTML e linguagens de programação como Java script. Além de conhecimentos em UI e UX.
+•	How: O administrador cadastrado organizará os portfólios na plataforma digital, selecionando os trabalhos dos alunos concluídos e em andamento, dispondo-os de maneira atrativa e com fácil visibilidade.
+
 
 •	How much: 0 de custo financeiro e alguns meses de trabalho
 
