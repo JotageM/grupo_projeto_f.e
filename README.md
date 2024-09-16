@@ -70,21 +70,66 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 
 
 ## Requisitos funcionais
+   
+1. O sistema terá uma opção de filtragem e busca
+   - Filtros disponíveis:
+     - Tecnologias.
+     - Ferramentas.
+     - Cursos.
+     - Períodos dos projetos.
+     - Unidade do IBMEC.
+   - O sistema deverá ter uma área para busca de palavras chave
+   
+2. O sistema deverá ter imagens em cada projeto
+   - Pelo menos uma imagem por projeto.
+   - A forma de exibição é de liberdade do programado.
+   - Mais imagens podem eventualmente ser adicionadas na pagina de detalhamento do projeto.
+    
+3. A página inicial do sistema estará mostrando os projetos de cada auluno:
+   - Cada projeto exibido conterá:
+     - Nome do projeto.
+     - Curso dos alunos.
+     - Descrção breve do projeto.
+     - pemo menos uma imagem.
+   - Nome dos alunos e suas funções:
+   - Technologias usadas e como foram aplicadas.
+   - Outros detalhes e anexos sobre o projeto.
+   
+   
+4. O sistema terá a opção de voltar para a pagina que estava usando anteriormente utilizando o próprio botão de "voltar" do browser:
+   - Uso do próprio botão do browser não de um botão independente.
 
-1. O sistema irá mostrar os cursos dos alunos
-2. O sistema terá uma filtragem pelo nome do aluno e projeto
-3. O sistema deverá ter imagens em cada projeto
-4. A página inicial do sistema estará mostrando alguns projetos
-5. O sistema terá a opção de "carregar mais"
-6. O sistema terá um portifólio que vai listar os projetos
-7. O sistema deverá ter a descrição do projeto
-8. O sistema terá uma opção para cadastro do projeto
-9. O sistema irá mostrar quando o projeto começou e terminou
-10. No sistema, o administrador deverá pdoer adicionar e disponibilizar os projetos no portifólio do Aluno
-    - O Adm poderá inserir
-        - oqhroihweljlwe 
-12. O sistema deverá ter um login para Administrador
+5. O sistema terá um portifólio que vai listar os projetos
+   - Na página inicial, os projetos seráo mostrados com uma foto, nome dos integrantes e uma descrição breve.
+   - No celular, os projetos serão mostrados linha por linha.
 
+6. O sistema deverá ter a descrição do projeto ( dentro da pagina de detalhes do projeto ):
+   - A pagina de detalhes terá:
+     - Nome dos integrates.
+     - Tecnologias usadas.
+     - Descrição dos projetos.
+     - imagens e documentos relevantes ao projeto.
+     - Papeis desempenhados de cada integrante.
+   
+7. O sistema irá mostrar quando o projeto começou e terminou
+    - As datas de início e fim deverão estar visíveis na listagem e detalhamento dos projetos.
+    
+8. No sistema, o administrador deverá poder adicionar e disponibilizar os projetos no portifólio do aluno:
+    - O Adm poderá inserir:
+      - O título do projeto.
+      - O Nome dos alunos.
+      - Descrição do Projeto.
+      - Tecnologias e ferramentas usadas.
+      - Data de início e conclusão do projeto.
+      - pelo menos uma imagem por projeto ( O Adm pode colocar mais imagens na pagina de detalhamento ).
+          
+9. O sistema deverá ter um login para Administrador
+    - Haverá uma página separada para o cadastro do Adm
+      - Nesta pagina haverá apenas uma área para login e outra para senha
+
+10. O sistema deverá conter uma navegação de conteúdos por paginação:
+    - O sistema deverá ter o sistema de paginação ao invés do scroll infinito.
+    
 ## Requisitos não funcionais
 
 * O Sistema será aplicado no celular e no computador
