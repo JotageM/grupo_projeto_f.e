@@ -71,17 +71,19 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 
 ## Requisitos funcionais
 
-* O sistema irá mostrar os cursos dos alunos
-* O sistema terá uma filtragem pelo nome do aluno e projeto
-* O sistema deverá ter imagens em cada projeto
-* A página inicial do sistema estará mostrando alguns projetos
-* O sistema terá a opção de "carregar mais"
-* O sistema terá um portifólio que vai listar os projetos
-* O sistema deverá ter a descrição do projeto
-* O sistema terá uma opção para cadastro do projeto
-* O sistema irá mostrar quando o projeto começou e terminou
-* No sistema, o administrador deverá pdoer adicionar e disponibilizar os projetos no portifólio do Aluno
-* O sistema deverá ter um login para Administrador
+1. O sistema irá mostrar os cursos dos alunos
+2. O sistema terá uma filtragem pelo nome do aluno e projeto
+3. O sistema deverá ter imagens em cada projeto
+4. A página inicial do sistema estará mostrando alguns projetos
+5. O sistema terá a opção de "carregar mais"
+6. O sistema terá um portifólio que vai listar os projetos
+7. O sistema deverá ter a descrição do projeto
+8. O sistema terá uma opção para cadastro do projeto
+9. O sistema irá mostrar quando o projeto começou e terminou
+10. No sistema, o administrador deverá pdoer adicionar e disponibilizar os projetos no portifólio do Aluno
+    - O Adm poderá inserir
+     -oqhroihweljlwe 
+12. O sistema deverá ter um login para Administrador
 
 ## Requisitos não funcionais
 
