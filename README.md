@@ -136,10 +136,13 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 ## Requisitos não funcionais
 
 1. O Sistema será aplicado no celular e no computador
+
 2. O Sistema será em inglês e português
    - O sistema terá um botão que troca a linguagem da página
-4. O Sistema será feito em React
-5. O sistema terá a identidade visual da IBMEC
+
+3. O Sistema será feito em React
+
+4. O sistema terá a identidade visual da IBMEC
 
 
 
