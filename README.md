@@ -89,12 +89,11 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
    - Cada projeto exibido conterá:
      - Nome do projeto.
      - Curso dos alunos.
-     - Descrção breve do projeto.
-     - pemo menos uma imagem.
+     - Descrição breve do projeto.
+     - pelo menos uma imagem.
    - Nome dos alunos e suas funções:
-   - Technologias usadas e como foram aplicadas.
+   - Tecnologias usadas e como foram aplicadas.
    - Outros detalhes e anexos sobre o projeto.
-   
    
 4. O sistema terá a opção de voltar para a pagina que estava usando anteriormente utilizando o próprio botão de "voltar" do browser:
    - Uso do próprio botão do browser não de um botão independente.
@@ -103,13 +102,14 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
    - Na página inicial, os projetos seráo mostrados com uma foto, nome dos integrantes e uma descrição breve.
    - No celular, os projetos serão mostrados linha por linha.
 
-6. O sistema deverá ter a descrição do projeto ( dentro da pagina de detalhes do projeto ):
+6. O sistema deverá ter a descrição do projeto (dentro da pagina de detalhes do projeto):
    - A pagina de detalhes terá:
      - Nome dos integrates.
      - Tecnologias usadas.
      - Descrição dos projetos.
      - imagens e documentos relevantes ao projeto.
      - Papeis desempenhados de cada integrante.
+     - Data de ínicio e fim do projeto
    
 7. O sistema irá mostrar quando o projeto começou e terminou
     - As datas de início e fim deverão estar visíveis na listagem e detalhamento dos projetos.
@@ -121,21 +121,25 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
       - Descrição do Projeto.
       - Tecnologias e ferramentas usadas.
       - Data de início e conclusão do projeto.
-      - pelo menos uma imagem por projeto ( O Adm pode colocar mais imagens na pagina de detalhamento ).
+      - pelo menos uma imagem por projeto (O Adm pode colocar mais imagens na pagina de detalhamento).
           
 9. O sistema deverá ter um login para Administrador
     - Haverá uma página separada para o cadastro do Adm
-      - Nesta pagina haverá apenas uma área para login e outra para senha
+      - Nesta pagina haverá uma área para login e outra para senha
+      - Nesta página terá um link para o adm deslogar 
 
 10. O sistema deverá conter uma navegação de conteúdos por paginação:
     - O sistema deverá ter o sistema de paginação ao invés do scroll infinito.
+      - O sistema de paginação terá a numeração das páginas
+      - O sistema de paginação deverá mostrar em qual página o usário está
     
 ## Requisitos não funcionais
 
-* O Sistema será aplicado no celular e no computador
-* O Sistema estará em inglês e português
-* O Sistema será feito em React
-* O sistema terá a identidade visual da IBMEC
+1. O Sistema será aplicado no celular e no computador
+2. O Sistema será em inglês e português
+   - O sistema terá um botão que troca a linguagem da página
+4. O Sistema será feito em React
+5. O sistema terá a identidade visual da IBMEC
 
 
 
