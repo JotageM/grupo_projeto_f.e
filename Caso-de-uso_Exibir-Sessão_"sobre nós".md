@@ -1,4 +1,4 @@
-Caso de uso: Exibir sessão sobre nós
+# Caso de uso: Exibir sessão sobre nós
 
 * Ator: Usuário 
 * Descrição: O usuário deseja ver as informações sobre o time de desenvolvimento
