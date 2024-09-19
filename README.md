@@ -85,7 +85,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
    - A forma de exibição é de liberdade do programado.
    - Mais imagens podem eventualmente ser adicionadas na pagina de detalhamento do projeto.
     
-3. A página inicial do sistema estará mostrando os projetos de cada auluno:
+3. A página inicial do sistema estará mostrando os projetos de cada aluno:
    - Cada projeto exibido conterá:
      - Nome do projeto.
      - Curso dos alunos.
