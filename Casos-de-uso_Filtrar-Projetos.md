@@ -7,5 +7,5 @@
   1. O usuário acessa a pagina principal.
   2. O usuário clica no botão de filtro.
   3. O usuário define quais filtros serão usados dentre: Tecnologias, Período, Curso e Unidade.
-  4. O Sistema exbe os projetos na pagina de acordo com o critério de filtragem.
+  4. O Sistema exibe os projetos na página de acordo com o critério de filtragem.
 * Pós-condição: Os projetos são exibidos de acordo com a filtragem.
