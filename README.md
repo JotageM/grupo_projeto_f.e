@@ -82,7 +82,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
    
 2. O sistema deverá ter imagens em cada projeto
    - Pelo menos uma imagem por projeto.
-   - A forma de exibição é de liberdade do programado.
+   - A forma de exibição é de liberdade do programador.
    - Mais imagens podem eventualmente ser adicionadas na pagina de detalhamento do projeto.
     
 3. A página inicial do sistema estará mostrando os projetos de cada aluno:
@@ -99,7 +99,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
    - Uso do próprio botão do browser não de um botão independente.
 
 5. O sistema terá um portifólio que vai listar os projetos
-   - Na página inicial, os projetos seráo mostrados com uma foto, nome dos integrantes e uma descrição breve.
+   - Na página inicial, os projetos serão mostrados com uma foto, nome dos integrantes e uma descrição breve.
    - No celular, os projetos serão mostrados linha por linha.
 
 6. O sistema deverá ter a descrição do projeto (dentro da pagina de detalhes do projeto):
