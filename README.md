@@ -146,7 +146,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 
 # Casos de uso
   - https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/Caso-de-uso_Fazer_login.md
-  - [/Caso-de-uso_compartilhar-um-projeto.md] (https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/Compartilhar-um-projeto.md)
+  - [Caso-de-uso_compartilhar-um-projeto.md](https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/Compartilhar-um-projeto.md)
   - https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/Casos-de-uso_Editar-um-projeto.md
   - https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/Casos-de-uso_Exibir-detalhes-do-projeto.md
   - https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/Casos-de-uso_Filtrar-Projetos.md
