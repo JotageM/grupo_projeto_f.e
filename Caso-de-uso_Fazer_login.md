@@ -1,7 +1,7 @@
 # Caso de uso: Fazer login
 
 * Ator: Administrador
-* Descrição dos casos de uso: O administrador deseja acessar o sistema com sua conta 
+* Descrição: O administrador deseja acessar o sistema com sua conta 
 * Pré-condição: O administrador deve estar na página de login
 * Fluxo pincipal:
   1. O administrador digita seu login
