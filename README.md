@@ -75,7 +75,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
    - A pagina inicial terá os filtros disponíveis:
      - Tecnologias.
      - Ferramentas.
-     - Cursos.
+     - Cursos dos envolvidos.
      - Períodos dos projetos.
      - Unidade do IBMEC.
    - O sistema deverá ter uma área para busca de palavras chave
