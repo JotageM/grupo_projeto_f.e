@@ -1,4 +1,4 @@
-# Casos de uso Editar: um projeto
+# Casos de uso: Editar um projeto
 
 * Ator: Administrador
 * Descrição: O administrador deseja alterar os detalhes de um projeto já adicionado
