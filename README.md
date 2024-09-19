@@ -72,15 +72,15 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 ## Requisitos funcionais
    
 1. O sistema terá uma opção de filtragem e busca
-   - A pagina inicial terá os filtros disponíveis:
+   - A pagina inicial terá as opções de filtros disponíveis:
      - Tecnologias.
      - Ferramentas.
      - Cursos dos envolvidos.
      - Períodos dos projetos.
      - Unidade do IBMEC.
-   - O sistema deverá ter uma área para busca de palavras chave
+   - A página inicial terá uma área para busca de palavras chave
    
-2. O sistema deverá ter imagens em cada projeto
+2. O sistema terá imagens em cada projeto
    - Pelo menos uma imagem por projeto.
    - A forma de exibição é de liberdade do programador.
    - Mais imagens podem eventualmente ser adicionadas na pagina de detalhamento do projeto.
@@ -90,7 +90,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
      - Nome do projeto.
      - Curso dos alunos.
      - Descrição breve do projeto.
-     - imagens.
+     - Uma imagem.
    - Nome dos alunos e suas funções:
    - Tecnologias usadas e como foram aplicadas.
    - Outros detalhes e anexos sobre o projeto.
@@ -103,7 +103,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
    - No celular, os projetos serão mostrados linha por linha.
 
 6. O sistema deverá ter a descrição do projeto (dentro da pagina de detalhes do projeto):
-   - A pagina de detalhes terá:
+   - A pagina de detalhes estará mostrando:
      - Nome dos integrates.
      - Tecnologias usadas.
      - Descrição dos projetos.
