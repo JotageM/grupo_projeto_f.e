@@ -1,7 +1,7 @@
 # Caso de uso: Filtrar projetos
 
 * Ator: Usuário
-* Descrição dos casos de uso: O usuário deseja filtrar os projetos baseado em critérios como tecnologia, período, curso e unidade.
+* Descrição dos casos de uso: O usuário deseja filtrar os projetos.
 * Pré-condições: O usuário precisa estar na página principal.
 * Fluxo-principal:
   1. O usuário acessa a pagina principal.
