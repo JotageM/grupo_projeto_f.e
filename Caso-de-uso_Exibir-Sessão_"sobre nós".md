@@ -6,4 +6,4 @@
 * Fluxo principal
   1. O usuário clica no link "Sobre nós".
   2. O sistema exibe outra página com as informações sobre o time.
-* Pós condição: As informação da página sobre nós são exibidas.
+* Pós condição: As informações da página sobre nós são exibidas.
