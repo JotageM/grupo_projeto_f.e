@@ -72,7 +72,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
 ## Requisitos funcionais
    
 1. O sistema terá uma opção de filtragem e busca
-   - Filtros disponíveis:
+   - A pagina inicial terá os filtros disponíveis:
      - Tecnologias.
      - Ferramentas.
      - Cursos.
