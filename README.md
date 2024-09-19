@@ -90,7 +90,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
      - Nome do projeto.
      - Curso dos alunos.
      - Descrição breve do projeto.
-     - pelo menos uma imagem.
+     - imagens.
    - Nome dos alunos e suas funções:
    - Tecnologias usadas e como foram aplicadas.
    - Outros detalhes e anexos sobre o projeto.
@@ -121,7 +121,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
       - Descrição do Projeto.
       - Tecnologias e ferramentas usadas.
       - Data de início e conclusão do projeto.
-      - pelo menos uma imagem por projeto (O Adm pode colocar mais imagens na pagina de detalhamento).
+      - Imagens (O Adm pode colocar mais imagens na pagina de detalhamento).
           
 9. O sistema deverá ter um login para Administrador
     - Haverá uma página separada para o cadastro do Adm
