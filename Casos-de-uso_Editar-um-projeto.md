@@ -1,7 +1,7 @@
 # Casos de uso: Editar um projeto
 
 * Ator: Administrador
-* Descrição: O administrador deseja alterar os detalhes de um projeto já adicionado
+* Descrição: O administrador deseja editar os detalhes de um projeto já adicionado
 * Pré-condições: O administrador precisa estar logado
 * Fluxo principal:
   1. O administrador localizao o projeto que ele que fazer as alterações
@@ -9,4 +9,4 @@
   3. O administrador edita os campos que ele desejar
   4. O administrador clica para salvar as alterações
   5. O sistema salva as alterações
-* Pós-condições: O projeto é editado com sucesso
+* Pós-condições: O sistema exibe o projeto editado
