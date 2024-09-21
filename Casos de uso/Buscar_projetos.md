@@ -1,4 +1,4 @@
-# Caso de uso: Procurar projetos
+# Caso de uso: Buscar projetos
 
 * Ator: Usuário
 * Descrição dos casos de uso: O usuário deseja buscar os projetos baseado em palavras chvaes.
