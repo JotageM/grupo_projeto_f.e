@@ -1,4 +1,4 @@
-# Exibir detalhes do projeto
+# Caso de uso: Exibir detalhes do projeto
 
 * Ator: Usuário
 * Descrição: O usuário deseja ver mais informações detalhadas sobre um projeto em específico.
