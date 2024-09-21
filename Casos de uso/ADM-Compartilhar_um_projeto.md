@@ -1,6 +1,6 @@
 # Caso de Uso: Compartilhar um projeto
 
-* Ator: Adminstrador
+* Ator: Usuário
 
 * Descrição: O administrador deseja compartilhar um projeto com outras pessoas para que elas possam visualizar o projeto
 
