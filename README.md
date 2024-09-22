@@ -149,7 +149,7 @@ As respostas dessas perguntas em relação ao projeto de portifólios do IBMEC �
   - [ADM_Fazer_log_out.md](https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/ADM_Fazer-log-out.md)
   - [ADM_Editar-um-projeto.md](https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/ADM_Editar-um-projeto.md)
   - [ADM_Compartilhar-um-projeto.md](https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/ADM-Compartilhar_um_projeto.md)
-  - [ADM_Excluir-um-projeto.md](https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/ADM_Remover-projetos.md)
+  - [ADM_Remover-um-projeto.md](https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/ADM_Remover-projetos.md)
   - [Usuário_Exibir-detalhes-do-projeto.md](https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/Usuário_Exibir-detalhes-do-projeto.md)
   - [Usuário_Filtrar-Projetos.md](https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/Usuário_Filtrar-Projetos.md)
   - [Usuário_Buscar-projetos.md](https://github.com/JotageM/grupo_projeto_f.e/blob/main/Casos%20de%20uso/Usuário_Buscar_projetos.md)
