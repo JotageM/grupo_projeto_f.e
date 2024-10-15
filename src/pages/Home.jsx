@@ -4,6 +4,8 @@ import { auth } from "../config/Firebase";
 import { useEffect } from "react";
 import Card from "../components/Card/Card";
 import ListContainer from "../components/ListContainer/ListContiner";
+import { Paginacao_paginacao } from "../components/Pagination/Style";
+import Pagination from "../components/Pagination/Pagination";
 
 const Home = () => {
 
@@ -19,18 +21,28 @@ const Home = () => {
   
 
   return (
-    <Base>
+    <>
+    
+     <Base>
+       
       <ListContainer>
         <Card></Card>
         <Card></Card>
         <Card></Card>
         <Card></Card>
         <Card></Card>
+        
+        
+        
       
       
       </ListContainer>
+      <Pagination/>
+      
       
     </Base>
+    </>
+    
   )
 }
 

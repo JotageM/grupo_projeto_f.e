@@ -1,13 +1,22 @@
 import styled from "styled-components";
 
+
+const Card_card = styled.div`
+
+    padding-bottom: 7em ;
+
+
+`
+
 const Card_container = styled.div`
 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; /* Para ajustar no caso de telas menores */
     justify-content: center;
-    padding: 0px;
-    border: solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    border: 1px solid #ccc;
     width: 415px ;
     height: 720px;
     `
@@ -81,4 +90,4 @@ const Card_butao = styled.button`
 
 
 
-export {Card_container, Card_titulo, Card_imagem, Card_subtitulo, Card_descricao, Card_butao};
+export {Card_card, Card_container, Card_titulo, Card_imagem, Card_subtitulo, Card_descricao, Card_butao};
