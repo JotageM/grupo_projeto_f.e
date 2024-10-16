@@ -1,6 +1,6 @@
 import {Container, Titulo, Descricao} from "./Style";
 
-const ProjetosContainer = ( props ) => (
+const Banner = ( props ) => (
     
     <Container>
         <Titulo> Projetos </Titulo>
@@ -9,4 +9,4 @@ const ProjetosContainer = ( props ) => (
    
 );
 
-export default ProjetosContainer
+export default Banner

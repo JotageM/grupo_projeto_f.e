@@ -6,7 +6,7 @@ import Card from "../components/Card/Card";
 import ListContainer from "../components/ListContainer/ListContiner";
 import { Paginacao_paginacao } from "../components/Pagination/Style";
 import Pagination from "../components/Pagination/Pagination";
-import ProjetosContainer from "../components/ProjetosContainer/ProjetosContainer";
+import Banner from "../components/Banner/Banner";
 
 const Home = () => {
 
@@ -25,7 +25,7 @@ const Home = () => {
     <>
     
      <Base>
-      <ProjetosContainer></ProjetosContainer>
+      <Banner></Banner>
       <ListContainer>
         <Card></Card>
         <Card></Card>
