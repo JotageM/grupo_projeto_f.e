@@ -6,6 +6,7 @@ const Pagination_container = styled.div`
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+    font-family: 'Roboto Condensed', sans-serif;
     
 
 
