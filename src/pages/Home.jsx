@@ -7,6 +7,8 @@ import ListContainer from "../components/ListContainer/ListContiner";
 import { Paginacao_paginacao } from "../components/Pagination/Style";
 import Pagination from "../components/Pagination/Pagination";
 import Banner from "../components/Banner/Banner";
+import Header from "../components/Header/Header";
+
 
 const Home = () => {
 
@@ -24,7 +26,7 @@ const Home = () => {
   return (
     <>
     
-     <Base>
+      <Header></Header>
       <Banner></Banner>
       <ListContainer>
         <Card></Card>
@@ -41,7 +43,7 @@ const Home = () => {
       <Pagination/>
       
       
-    </Base>
+    
     </>
     
   )

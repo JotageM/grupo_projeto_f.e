@@ -1,25 +1,26 @@
 import styled from "styled-components";
 
-const Container = styled.div`
-  background-color: #002555; 
-  color: #FFFFFF; 
-  padding: 40px; 
-  font-family: 'Roboto Condensed', sans-serif;
-  width: 100%;
-  margin-left: -4.4%
-`
+const CorpoBanner = styled.div`
+  background-color: #002555;
+  height: 17em;
+  display: flex;
+`;
 
-const Titulo = styled.div`
-  font-size: 3.5em; 
-  margin: 0;
-  margin-left: 5em;
-`
+const BannerContainer = styled.div`
+  margin-left: 10em;
+  margin-top: 3em;
+  h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3.5em;
+    font-weight: 300;
+    color: #FFFFFF;
+  };
+  h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-top: 2em;
+  }
+`;
 
-const Descricao = styled.div`
-  font-size: 1.5em; 
-  margin-top: 40px; 
-  margin-left: 11.7em;
-`
-
-
-export {Container, Titulo, Descricao};
+export { CorpoBanner, BannerContainer };

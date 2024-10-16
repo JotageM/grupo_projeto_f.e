@@ -1,11 +1,13 @@
-import {Container, Titulo, Descricao} from "./Style";
+import {CorpoBanner,BannerContainer} from "./Style";
 
-const Banner = ( props ) => (
-    
-    <Container>
-        <Titulo> Projetos </Titulo>
-        <Descricao>Conheça os projetos feitos pelos alunos do IBMEC</Descricao>
-    </Container>
+const Banner = () => (
+    <CorpoBanner>
+        <BannerContainer>
+            <h1> Projetos</h1>
+            <h3>Conheça os projetos feitos pelos alunos do IBMEC</h3>
+        
+        </BannerContainer>
+    </CorpoBanner>
    
 );
 
