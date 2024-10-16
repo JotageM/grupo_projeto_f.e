@@ -6,6 +6,8 @@ const Pagination_container = styled.div`
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    
     
 
 
@@ -17,6 +19,8 @@ const Pagination_number = styled.p`
     padding: 5px 10px; /* Espaçamento interno */
     border: 1px solid transparent; /* Borda inicial transparente */
     font-weight: bold;
+    cursor: pointer;
+    
 
 
 `

@@ -7,6 +7,7 @@ import ListContainer from "../components/ListContainer/ListContiner";
 import { Paginacao_paginacao } from "../components/Pagination/Style";
 import Pagination from "../components/Pagination/Pagination";
 import Banner from "../components/Banner/Banner";
+import Botao_de_busca from "../components/Botao de busca/botão de busca";
 import Header from "../components/Header/Header";
 
 
@@ -28,6 +29,7 @@ const Home = () => {
     
       <Header></Header>
       <Banner></Banner>
+      <Botao_de_busca></Botao_de_busca>
       <ListContainer>
         <Card></Card>
         <Card></Card>

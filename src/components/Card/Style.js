@@ -15,10 +15,11 @@ const Card_container = styled.div`
     flex-wrap: wrap; /* Para ajustar no caso de telas menores */
     justify-content: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
+    margin-top: -5em;
     border: 1px solid #ccc;
     width: 415px ;
     height: 720px;
+    font-family: 'Roboto Condensed', sans-serif;
     `
 
 const Card_titulo = styled.div`

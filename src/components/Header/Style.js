@@ -26,6 +26,7 @@ const Container = styled.div`
 
 const MenuItem = styled.div`
   font-family: 'Roboto Condensed', sans-serif;
+  cursor: pointer;
   font-size: 20px;
 `
 
