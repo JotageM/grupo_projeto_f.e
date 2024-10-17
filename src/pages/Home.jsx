@@ -9,19 +9,11 @@ import Pagination from "../components/Pagination/Pagination";
 import Banner from "../components/Banner/Banner";
 import Botao_de_busca from "../components/Botao de busca/botão de busca";
 import Header from "../components/Header/Header";
+import dados from "../data/dados-projetos.json"
 
 
 const Home = () => {
 
-  /* useEffect(()=> {
-    onAuthStateChanged(auth, (user)=> {
-      if (user) {
-        window.sessionStorage.setItem("accessToken", user.accessToken);
-      } else {
-        window.sessionStorage.removeItem("accessToken");
-      }
-    })
-  },[]) */
   
 
   return (
@@ -31,17 +23,18 @@ const Home = () => {
       <Banner></Banner>
       <Botao_de_busca></Botao_de_busca>
       <ListContainer>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        
-        
-        
-      
-      
-      </ListContainer>
+          {dados.map(
+            (el, index) => (
+              <Card 
+                key={index}
+                titulo={el.titulo}
+                src={el.url}
+                subtitulo={el.subtitulo}
+                descricao={el.descricao}
+              />
+              )
+          )}
+          </ListContainer>
       <Pagination/>
       
       

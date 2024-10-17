@@ -18,57 +18,61 @@ const Card_container = styled.div`
     margin-top: -5em;
     border: 1px solid #ccc;
     width: 415px ;
-    height: 720px;
+    height: 600px;
     font-family: 'Roboto Condensed', sans-serif;
-    `
+    
 
-const Card_titulo = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #002f6c;
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    width: 100em;
-    max-height: 3em;
+    titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #002f6c;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        width: 100em;
+        max-height: 3em;
+    }
    
 
-`
-const Card_imagem = styled.img`
+
+    img{
     
     position: relative;
     bottom: 3px;
     width: 100%;
-    height: 323.36px;
+    height: 260px;
+    }   
     
 
-`
-const Card_subtitulo = styled.div`
-    
+
+    subtitulo{
+    padding-top: 10 px;
     position: relative;
     bottom: 30px;
     justify-content: center;
     font-weight: bold;
-    font-size: 2.1em;
+    font-size: 1.6em;
+    }
 
 
 
 
-`
-const Card_descricao = styled.div`
+
+    descricao{
     
     position: relative;
     bottom: 40px;
     justify-content: center;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    margin: 25px;
+    }
 
 
 
 
-`
-const Card_butao = styled.button`
+    button {
     
     position: relative;
     bottom: 30px;
@@ -80,15 +84,15 @@ const Card_butao = styled.button`
     cursor: pointer;
     font-size: 20px;
     width: 285.39px;
-    height: 85.09px;
-    
+    height: 70px;
+    }
 
-    
-
-`
+    `
 
 
 
 
 
-export {Card_card, Card_container, Card_titulo, Card_imagem, Card_subtitulo, Card_descricao, Card_butao};
+
+
+export {Card_card, Card_container};

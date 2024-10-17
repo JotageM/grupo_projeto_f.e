@@ -1,18 +1,20 @@
-import {Card_butao, Card_card, Card_container, Card_descricao, Card_imagem, Card_subtitulo, Card_titulo} from "./Style";
+import {Card_card, Card_container} from "./Style";
 
-const Card = ( props ) => (
-    <Card_card>
+const Card = ( props ) => {
+   
+   return(
+   <Card_card>
         <Card_container>
-            <Card_titulo> Arquitetura e Urbanismo </Card_titulo>
-            <Card_imagem src="imagens/old-computer-1.jpg"/> 
-            <Card_subtitulo>Casa moderna</Card_subtitulo>
-            <Card_descricao>Este projeto é sobre uma inovção no mundo da arquitetura</Card_descricao>
-            <Card_butao>Acessar projeto</Card_butao>
+            <titulo>{props.titulo}</titulo>
+            <img src={props.src} />
+            <subtitulo>{props.subtitulo}</subtitulo>
+            <descricao>{props.descricao}</descricao>
+            <button>Acessar Projeto</button>
 
 
         </Card_container>
     </Card_card>
-   
-);
+   )
+};
 
 export default Card

@@ -15,7 +15,7 @@ const Pagination_container = styled.div`
 
 const Pagination_number = styled.p`
 
-    font-size: 2em; /* Tamanho da fonte */
+    font-size: 1.5em; /* Tamanho da fonte */
     padding: 5px 10px; /* Espaçamento interno */
     border: 1px solid transparent; /* Borda inicial transparente */
     font-weight: bold;

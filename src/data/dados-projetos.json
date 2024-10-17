@@ -1,46 +1,50 @@
 [
     {
-        "nome": "Um título do array",
-        "desc": "Um texto grande do array."
+        "titulo": "Arquitetura e Urbanismo",
+        "url": "imagens/arquitetura.png",
+        "subtitulo": "Casa Moderna",
+        "descricao": "Esse projeto é sobre uma inovação no mundo da arquitetura"
     },
     {
-        "nome": "Um outro título do array",
-        "desc": "Um outro texto grande do array."
+        "titulo": "Robótica",
+        "url": "imagens/robo.png",
+        "subtitulo": "Protótipo de rôbo",
+        "descricao": "Esse foi um projeto desenvolvido para uma luta de robôs"
     },
     {
-        "nome": "Um outro título do array",
-        "desc": "Um outro texto grande do array."
+        "titulo": "Economia",
+        "url": "imagens/economia.png",
+        "subtitulo": "Planilha de custos",
+        "descricao": "Projeto feito em parceria com a JM Finances, gerando um dashboard financeiro "
     },
     {
-        "nome": "Um outro título do array",
-        "desc": "Um outro texto grande do array."
+        "titulo": "Programação",
+        "url": "imagens/rogue.png",
+        "subtitulo": "Rogue",
+        "descricao": "Jogo feito em python com o professor de Programação Estruturada"
     },
     {
-        "nome": "Um outro título do array",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aliquam illum accusantium error dignissimos et, omnis atque dolore ullam, doloremque provident, corporis eveniet unde a voluptatem dicta quas nobis itaque?"
+        "titulo": "Arquitetura e Urbanismo",
+        "url": "imagens/arquitetura.png",
+        "subtitulo": "Casa Moderna",
+        "descricao": "Esse projeto é sobre uma inovação no mundo da arquitetura"
     },
     {
-        "nome": "Um outro título do array",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aliquam illum accusantium error dignissimos et, omnis atque dolore ullam, doloremque provident, corporis eveniet unde a voluptatem dicta quas nobis itaque?"
+        "titulo": "Robótica",
+        "url": "imagens/robo.png",
+        "subtitulo": "Protótipo de rôbo",
+        "descricao": "Esse foi um projeto desenvolvido para uma luta de robôs"
     },
     {
-        "nome": "Um outro título do array",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aliquam illum accusantium error dignissimos et, omnis atque dolore ullam, doloremque provident, corporis eveniet unde a voluptatem dicta quas nobis itaque?."
+        "titulo": "Economia",
+        "url": "imagens/economia.png",
+        "subtitulo": "Planilha de custos",
+        "descricao": "Projeto feito em parceria com a JM Finances, gerando um dashboard financeiro "
     },
     {
-        "nome": "Um outro título do array",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aliquam illum accusantium error dignissimos et, omnis atque dolore ullam, doloremque provident, corporis eveniet unde a voluptatem dicta quas nobis itaque?"
-    },
-    {
-        "nome": "Um outro título do array",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aliquam illum accusantium error dignissimos et, omnis atque dolore ullam, doloremque provident, corporis eveniet unde a voluptatem dicta quas nobis itaque?"
-    },
-    {
-        "nome": "Um outro título do array",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aliquam illum accusantium error dignissimos et, omnis atque dolore ullam, doloremque provident, corporis eveniet unde a voluptatem dicta quas nobis itaque?"
-    },
-    {
-        "nome": "Um outro título do array",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aliquam illum accusantium error dignissimos et, omnis atque dolore ullam, doloremque provident, corporis eveniet unde a voluptatem dicta quas nobis itaque?"
+        "titulo": "Programação",
+        "url": "imagens/rogue.png",
+        "subtitulo": "Rogue",
+        "descricao": "Jogo feito em python com o professor de Programação Estruturada"
     }
   ]
