@@ -1,10 +1,10 @@
 import {CorpoBanner,BannerContainer} from "./Style";
 
-const Banner = () => (
+const Banner = ( props ) => (
     <CorpoBanner>
         <BannerContainer>
-            <h1> Projetos</h1>
-            <h3>Conheça os projetos feitos pelos alunos do IBMEC</h3>
+            <h1>{props.titulo}</h1>
+            <h3>{props.subtitulo}</h3>
         
         </BannerContainer>
     </CorpoBanner>

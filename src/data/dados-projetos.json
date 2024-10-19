@@ -2,49 +2,49 @@
    
     
     {
-        "id": "Card-1",
+        "id": "Projeto-1",
         "titulo": "Arquitetura e Urbanismo",
         "url": "imagens/arquitetura.png",
         "subtitulo": "Casa Moderna",
         "descricao": "Esse projeto é sobre uma inovação no mundo da arquitetura"
     },
-    {   "id": "Card-2",
+    {   "id": "Projeto-2",
         "titulo": "Robótica",
         "url": "imagens/robo.png",
         "subtitulo": "Protótipo de rôbo",
         "descricao": "Esse foi um projeto desenvolvido para uma luta de robôs"
     },
-    {   "id": "Card-3",
+    {   "id": "Projeto-3",
         "titulo": "Economia",
         "url": "imagens/economia.png",
         "subtitulo": "Planilha de custos",
         "descricao": "Projeto feito em parceria com a JM Finances, gerando um dashboard financeiro "
     },
-    {   "id": "Card-4",
+    {   "id": "Projeto-4",
         "titulo": "Programação",
         "url": "imagens/rogue.png",
         "subtitulo": "Rogue",
         "descricao": "Jogo feito em python com o professor de Programação Estruturada"
     },
-    {   "id": "",
+    {   "id": "Projeto-1",
         "titulo": "Arquitetura e Urbanismo",
         "url": "imagens/arquitetura.png",
         "subtitulo": "Casa Moderna",
         "descricao": "Esse projeto é sobre uma inovação no mundo da arquitetura"
     },
-    {   "id": "",
+    {   "id": "Projeto-2",
         "titulo": "Robótica",
         "url": "imagens/robo.png",
         "subtitulo": "Protótipo de rôbo",
         "descricao": "Esse foi um projeto desenvolvido para uma luta de robôs"
     },
-    {   "id": "",
+    {   "id": "Projeto-3",
         "titulo": "Economia",
         "url": "imagens/economia.png",
         "subtitulo": "Planilha de custos",
         "descricao": "Projeto feito em parceria com a JM Finances, gerando um dashboard financeiro "
     },
-    {   "id": "",
+    {   "id": "Projeto-4",
         "titulo": "Programação",
         "url": "imagens/rogue.png",
         "subtitulo": "Rogue",

@@ -9,7 +9,8 @@ import Pagination from "../components/Pagination/Pagination";
 import Banner from "../components/Banner/Banner";
 import Botao_de_busca from "../components/Botao de busca/botão de busca";
 import Header from "../components/Header/Header";
-import dados from "../data/dados-projetos.json"
+import dados_projetos from "../data/dados-projetos.json"
+import dados_banner from "../data/dados-banner.json"
 
 
 const Home = () => {
@@ -20,10 +21,19 @@ const Home = () => {
     <>
     
       <Header></Header>
-      <Banner></Banner>
+      {dados_banner
+      .filter(el => el.exibirHome !== false) 
+      .map((el, index) => (
+        <Banner 
+          key={index}
+          id = {el.id}
+          titulo={el.titulo}
+          subtitulo={el.subtitulo}
+        />
+      ))}
       <Botao_de_busca></Botao_de_busca>
       <ListContainer>
-          {dados.map(
+          {dados_projetos.map(
             (el, index) => (
               <Card
                 
