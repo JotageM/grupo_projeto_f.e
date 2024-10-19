@@ -6,12 +6,14 @@ import Home from "./pages/Home";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { auth } from "./config/Firebase";
 import { onAuthStateChanged } from "firebase/auth";
+import Detalhamento from "./pages/Detalhamento";
 
 
 
 
 const container = document.getElementById("root");
 const root = createRoot(container);
+
 
 onAuthStateChanged(auth, (user)=> {
   if (user) {
@@ -25,7 +27,8 @@ root.render(
   <React.StrictMode>
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Home/>} />        
+        <Route path="/detalhes/:id" element={<Detalhamento/>} />            
       </Routes>
     </HashRouter>
   </React.StrictMode>

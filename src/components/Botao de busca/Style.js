@@ -12,7 +12,7 @@ const Botao_Container = styled.div`
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   width: 400px; 
   position: absolute;
-  top: 70vh; 
+  top: 55vh; 
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Roboto Condensed', sans-serif;

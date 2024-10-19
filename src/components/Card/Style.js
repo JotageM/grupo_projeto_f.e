@@ -47,9 +47,8 @@ const Card_container = styled.div`
 
 
     subtitulo{
-    padding-top: 10 px;
     position: relative;
-    bottom: 30px;
+    bottom: 10px;
     justify-content: center;
     font-weight: bold;
     font-size: 1.6em;
@@ -60,9 +59,9 @@ const Card_container = styled.div`
 
 
     descricao{
-    
+
     position: relative;
-    bottom: 40px;
+    bottom: 20px;
     justify-content: center;
     text-align: center;
     font-size: 1.2em;
@@ -71,8 +70,9 @@ const Card_container = styled.div`
 
 
 
-
+ 
     button {
+
     
     position: relative;
     bottom: 30px;
@@ -85,8 +85,14 @@ const Card_container = styled.div`
     font-size: 20px;
     width: 285.39px;
     height: 70px;
+
+
     }
 
+    button:hover {
+        
+    }
+    
     `
 
 

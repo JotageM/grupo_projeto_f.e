@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {Card_card, Card_container} from "./Style";
 
 const Card = ( props ) => {
@@ -9,7 +10,10 @@ const Card = ( props ) => {
             <img src={props.src} />
             <subtitulo>{props.subtitulo}</subtitulo>
             <descricao>{props.descricao}</descricao>
-            <button>Acessar Projeto</button>
+           
+            <Link to={`/detalhes/${props.id}`}><button>Acessar projeto</button></Link>
+                
+
 
 
         </Card_container>

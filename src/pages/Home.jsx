@@ -25,8 +25,10 @@ const Home = () => {
       <ListContainer>
           {dados.map(
             (el, index) => (
-              <Card 
+              <Card
+                
                 key={index}
+                id = {el.id}
                 titulo={el.titulo}
                 src={el.url}
                 subtitulo={el.subtitulo}
