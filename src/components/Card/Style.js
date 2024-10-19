@@ -17,7 +17,7 @@ const Card_container = styled.div`
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: -5em;
     border: 1px solid #ccc;
-    width: 415px ;
+    width: 380px ;
     height: 600px;
     font-family: 'Roboto Condensed', sans-serif;
     
@@ -39,7 +39,7 @@ const Card_container = styled.div`
     img{
     
     position: relative;
-    bottom: 3px;
+    bottom: px;
     width: 100%;
     height: 260px;
     }   
@@ -85,13 +85,21 @@ const Card_container = styled.div`
     font-size: 20px;
     width: 285.39px;
     height: 70px;
-
-
+    &:hover{
+        background-color: #bf8602;
     }
 
-    button:hover {
-        
+    a{
+        text-decoration: none;
+        color: black;
+        width: 300px;
     }
+   
+    }
+
+   
+
+    
     
     `
 
