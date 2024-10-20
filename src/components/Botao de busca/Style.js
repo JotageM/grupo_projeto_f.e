@@ -14,7 +14,7 @@ const Botao_Container = styled.div`
   position: absolute;
   top: 55vh; 
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 50%);
   font-family: 'Roboto Condensed', sans-serif;
 `;
 

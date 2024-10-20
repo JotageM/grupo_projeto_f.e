@@ -11,8 +11,7 @@ const Card = ( props ) => {
             <subtitulo>{props.subtitulo}</subtitulo>
             <descricao>{props.descricao}</descricao>
            
-            <button><Link to={`/detalhes/${props.id}`}>Acessar projeto</Link></button>
-                
+            <Link to={`/detalhes/${props.id}`} className="button">Acessar projeto</Link>
 
 
 

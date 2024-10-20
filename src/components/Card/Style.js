@@ -71,8 +71,7 @@ const Card_container = styled.div`
 
 
  
-    button {
-
+    .button {
     
     position: relative;
     bottom: 30px;
@@ -81,18 +80,16 @@ const Card_container = styled.div`
     padding: 10px 30px;
     border: none;
     border-radius: 20px;
+    height: 55px;
+    width: 240px;
     cursor: pointer;
-    font-size: 20px;
-    width: 285.39px;
-    height: 70px;
+    font-size: 22px;
+    text-align: center; 
+    line-height: 50px;
+    text-decoration: none;
+
     &:hover{
         background-color: #bf8602;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-        width: 300px;
     }
    
     }
