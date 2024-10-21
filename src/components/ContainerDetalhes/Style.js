@@ -9,16 +9,30 @@ const Container1 = styled.div`
 `;
 
 const Informacoes_Container1 = styled.div`
-   color: black;
-   text-align: center;
+   color: #002555;
+   font-size: 20px;
+   img{
+    position: absolute;
+    width: 33em;
+    height: 20em;
+    margin-top: 5.5em;
+    margin-left: 1.5em;
+    }  
 
 `;
 
 const Div_Container1 = styled.div`
-   width: 35em;
-   margin-left: 40em;
-   margin-top: 10em;
+   position: absolute;
+   width: 40em;
+   margin-left: 35em;
+   margin-top: 2.5em;
+   margin-bottom: 2.5em;
+   ul {
+    margin-top: 20px;
+    margin-bottom: 20px
+   }
 `;
+
 
 const Container2 = styled.div`
     background-color: #002555;
@@ -34,6 +48,8 @@ const Informacoes_Container2 = styled.div`
    padding-top: 20em
 
 `;
+
+
 
 
 export { Container1, Informacoes_Container1, Container2, Informacoes_Container2, Div_Container1 };

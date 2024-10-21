@@ -27,6 +27,7 @@ const Detalhamento = (props) => {
         <ContainerDetalhes 
           key={detalhes.id}
           id={detalhes.id}
+          src={detalhes.url}
           descricao={detalhes.descricao}
           tecnologias={detalhes.tecnologias}
           papeis={detalhes.papeis}

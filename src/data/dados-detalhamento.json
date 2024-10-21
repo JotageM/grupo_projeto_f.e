@@ -4,8 +4,8 @@
         "url": "imagens/rogue.png",
         "descricao": "Rogue é um jogo de estratégia e combate onde o jogador explora um mapa, enfrentando inimigos e subindo de nível. Cada vitória permite a compra de itens que melhoram características como força e defesa. O jogo oferece uma experiência envolvente com desafios constantes e personalização de personagens.",
         "tecnologias": "Jogo feito em Python",
-        "papeis": "Gabriel Corrêa: Designer do jogo. Responsável por criar a mecânica do jogo. João Gabriel: Artista Gráfico. Criou a arte do jogo. Estevão Moraes: Programador. Implementou a lógica do jogo. Enzo Lazzarotto: Responsável pela narrativa e roteiro. Desenvolveu a história.",
-        "data": "Início: Abril de 2024 / Fím: Junho de 2024"
+        "papeis": " Gabriel Corrêa: Designer do jogo. Responsável por criar a mecânica do jogo.\n João Gabriel: Artista Gráfico. Criou a arte do jogo.\n Estevão Moraes: Programador. Implementou a lógica do jogo.\n Enzo Lazzarotto: Responsável pela narrativa e roteiro. Desenvolveu a história. ",
+        "data": "Início: Abril de 2024 / Fim: Junho de 2024"
     }
 
 ]
