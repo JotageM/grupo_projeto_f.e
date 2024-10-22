@@ -32,6 +32,8 @@ const Detalhamento = (props) => {
           tecnologias={detalhes.tecnologias}
           papeis={detalhes.papeis}
           data={detalhes.data}
+          src_2={detalhes.url_2}
+          texto={detalhes.texto}
         />
       )}
     </>

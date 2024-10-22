@@ -35,9 +35,9 @@ const ContainerDetalhes = (props) => (
     </Container1>
     
     <Container2>
+      <img src={props.src} alt="Imagem do Projeto" />
       <Informacoes_Container2>
-        <h3>As Informações de merda do Container 2</h3>
-        <p>Detalhes adicionais sobre a porra do projeto ou informações dessa porra podem ser exibidos aqui.</p>
+        <p className="texto">{props.texto}</p>
       </Informacoes_Container2>
     </Container2>
   </>

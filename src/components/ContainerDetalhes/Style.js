@@ -39,13 +39,38 @@ const Container2 = styled.div`
     font-family: 'Roboto Condensed', sans-serif;
     width: 100%;
     height: 40em;
+
+    img{
+    position: absolute;
+    width: 43em;
+    height: 25em;
+    margin-top: 5.5em;
+    margin-left: 2em;
+    padding-left: 2em;
+    }
+     
     
 `;
 
 const Informacoes_Container2 = styled.div`
+
    color: white;
-   text-align: center;
-   padding-top: 20em
+   padding-top: 20em;
+   padding-left: 50em;
+   
+   .texto{
+    padding: 3em;
+    text-align: wrap;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+
+
+   }
+  
+   
+   
+    
+   
 
 `;
 
