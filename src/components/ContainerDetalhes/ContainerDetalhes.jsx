@@ -35,7 +35,7 @@ const ContainerDetalhes = (props) => (
     </Container1>
     
     <Container2>
-      <img src={props.src} alt="Imagem do Projeto" />
+      <img src={props.src_2} alt="Imagem do Projeto" />
       <Informacoes_Container2>
         <p className="texto">{props.texto}</p>
       </Informacoes_Container2>

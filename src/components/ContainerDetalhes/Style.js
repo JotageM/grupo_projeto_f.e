@@ -27,6 +27,7 @@ const Div_Container1 = styled.div`
    margin-left: 35em;
    margin-top: 2.5em;
    margin-bottom: 2.5em;
+   text-align: wrap;
    ul {
     margin-top: 20px;
     margin-bottom: 20px
@@ -42,11 +43,10 @@ const Container2 = styled.div`
 
     img{
     position: absolute;
-    width: 43em;
-    height: 25em;
-    margin-top: 5.5em;
-    margin-left: 2em;
-    padding-left: 2em;
+    width: 44em;
+    height: 30em;
+    margin-top: 5em;
+    margin-left: 3em;
     }
      
     
@@ -55,14 +55,16 @@ const Container2 = styled.div`
 const Informacoes_Container2 = styled.div`
 
    color: white;
-   padding-top: 20em;
-   padding-left: 50em;
+   padding-top: 3em;
+   padding-left: 45.5em;
    
    .texto{
     padding: 3em;
-    text-align: wrap;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 19px;
+    width: 35em;
+    height: 20em;
+    text-align: wrap;
 
 
    }
