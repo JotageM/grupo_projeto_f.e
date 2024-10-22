@@ -59,12 +59,14 @@ const Informacoes_Container2 = styled.div`
    padding-left: 45.5em;
    
    .texto{
+    padding-left: 10em;
     padding: 3em;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     width: 35em;
     height: 20em;
-    text-align: wrap;
+    text-align: justify;
+    margin-left: 6em;
 
 
    }

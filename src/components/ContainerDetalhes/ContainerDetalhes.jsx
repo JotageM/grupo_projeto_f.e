@@ -1,4 +1,4 @@
-import { Container1, Informacoes_Container1, Container2, Informacoes_Container2, Div_Container1 } from "./style";
+import { Container1, Informacoes_Container1, Container2, Informacoes_Container2, Div_Container1 } from "./Style";
 
 const ContainerDetalhes = (props) => (
   <>
