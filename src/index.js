@@ -1,21 +1,16 @@
-
 import React from "react";
 import { createRoot } from "react-dom/client";
-
-import Home from "./pages/Home";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { RouterProvider } from "react-router-dom";
 import { auth } from "./config/Firebase";
 import { onAuthStateChanged } from "firebase/auth";
-import Detalhamento from "./pages/Detalhamento";
-
-
-
+import router from "./routes";
+import Header from "./components/Header/Header.jsx";
+import { GlobalStyle } from "./Style.js";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 
-
-onAuthStateChanged(auth, (user)=> {
+onAuthStateChanged(auth, (user) => {
   if (user) {
     window.sessionStorage.setItem("accessToken", user.accessToken);
   } else {
@@ -25,11 +20,9 @@ onAuthStateChanged(auth, (user)=> {
 
 root.render(
   <React.StrictMode>
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home/>} />        
-        <Route path="/detalhes/:id" element={<Detalhamento/>} />            
-      </Routes>
-    </HashRouter>
+    <Header>
+      <RouterProvider router={router} />
+    </Header>
+    <GlobalStyle />
   </React.StrictMode>
 );

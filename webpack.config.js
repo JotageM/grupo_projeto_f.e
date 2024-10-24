@@ -10,7 +10,7 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "./build",)
   },
-
+  cache: false,
   module: {
     rules: [
       {

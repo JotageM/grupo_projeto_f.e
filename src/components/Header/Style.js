@@ -9,8 +9,7 @@ const Top = styled.header`
   align-content: center;
   box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
   z-index: 999
-  
-  `
+`;
 
 const Container = styled.div`
   padding-left: 100px;
@@ -22,12 +21,25 @@ const Container = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 768px) {
+    
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: space-around;
+  }
 `
 
 const MenuItem = styled.div`
   font-family: 'Roboto Condensed', sans-serif;
   cursor: pointer;
   font-size: 20px;
+
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
 
 const MenuButton = styled.div`

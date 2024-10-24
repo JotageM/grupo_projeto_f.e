@@ -1,23 +1,20 @@
 import { Link } from "react-router-dom";
-import {Card_card, Card_container} from "./Style";
+import { Card_card, Card_container } from "./Style";
 
-const Card = ( props ) => {
-   
-   return(
-   <Card_card>
-        <Card_container>
-            <titulo>{props.titulo}</titulo>
-            <img src={props.src} />
-            <subtitulo>{props.subtitulo}</subtitulo>
-            <descricao>{props.descricao}</descricao>
-           
-            <Link to={`/detalhes/${props.id}`} className="button">Acessar projeto</Link>
+const Card = (props) => {
 
+    return (
+        <Card_card>
+            <Card_container>
+                <titulo>{props.titulo}</titulo>
+                <img src={props.src} />
+                <subtitulo>{props.subtitulo}</subtitulo>
+                <descricao>{props.descricao}</descricao>
 
-
-        </Card_container>
-    </Card_card>
-   )
+                <Link to={`/projects/${props.id}`} className="button">Acessar projeto</Link>
+            </Card_container>
+        </Card_card>
+    )
 };
 
 export default Card

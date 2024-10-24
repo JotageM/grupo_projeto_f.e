@@ -12,7 +12,7 @@ const Card_container = styled.div`
 
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; /* Para ajustar no caso de telas menores */
+    flex-wrap: wrap; 
     justify-content: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: -5em;
