@@ -52,6 +52,21 @@ const MenuButton = styled.div`
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
 `
+const HamburgerButton = styled.div`
+
+  @media (min-width: 768px) {
+    
+      background-color: violet;
+      border: 2px solid black;
+      color: black;
+      width: 10px;
+      display: none;
+    
 
 
-export { Top, Container, MenuItem, MenuButton }
+  
+    
+  }
+`
+
+export { Top, Container, MenuItem, MenuButton, HamburgerButton }
