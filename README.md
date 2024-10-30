@@ -17,6 +17,9 @@ Links repositórios individuais:
 Link apresentação da AP1:
 - https://www.canva.com/design/DAGRU_QavmQ/rJdGqx27ZZQT3tcXFoDLzQ/edit
 
+Link Trello da equipe:
+- https://trello.com/b/25zWCQgC/site-front-end
+
 
 # Propósito do sistema
 
