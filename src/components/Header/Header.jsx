@@ -9,10 +9,11 @@ const Header = ({ children }) => {
           <a href="/">
             <img style={{ maxWidth: 150 }} src="imagens/logo_ibmec.png" />
           </a>
-          <HamburgerButton ><img src="menu.png"/></HamburgerButton>
+          
           <MenuItem> Projetos </MenuItem>
           <MenuItem> Sobre nós </MenuItem>
           <MenuButton> PT | EN </MenuButton>
+          <HamburgerButton ><img src="imagens/burger-bar.png" style={{maxWidth: 35}}/></HamburgerButton>
         </Container>
       </Top>
       {children}
