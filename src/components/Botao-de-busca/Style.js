@@ -40,11 +40,17 @@ const Botao_Lupa = styled.img`
   }
 `;
 
-const Botao_busca = styled.span`
+const Botao_busca = styled.input`
   font-size: 18px;
   color: #002855;
   margin-right: 10px;
   position: absolute;
+  border: none;
+  text-align: center;
+  &:focus{
+    outline: none;
+
+  }
 
   @media (max-width: 385px) {
     font-size: 16px;

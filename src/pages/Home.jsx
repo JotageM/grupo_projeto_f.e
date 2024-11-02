@@ -2,9 +2,10 @@ import Card from "../components/Card/Card";
 import ListContainer from "../components/ListContainer/ListContiner";
 import Pagination from "../components/Pagination/Pagination";
 import Banner from "../components/Banner/Banner";
-import Botao_de_busca from "../components/Botao de busca/botão de busca";
+import Botao_de_busca from "../components/Botao-de-busca/Botao-de-busca";
 import dados_projetos from "../data/dados-projetos.json"
 import dados_banner from "../data/dados-banner.json"
+
 
 
 const Home = () => {
