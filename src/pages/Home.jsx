@@ -14,8 +14,8 @@ const Home = () => {
     setProjetosFiltrados(
       dados_projetos.filter(
         (el) =>
-          el.titulo.toLowerCase().includes(filtro.toLowerCase()) ||
-          el.subtitulo.toLowerCase().includes(filtro.toLowerCase())
+          el.titulo.toLowerCase().startsWith(filtro.toLowerCase()) ||
+          el.subtitulo.toLowerCase().startsWith(filtro.toLowerCase())
       )
     );
   };
