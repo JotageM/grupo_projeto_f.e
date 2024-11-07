@@ -14,6 +14,7 @@ const Botao_Container = styled.div`
   top: 9em; 
   left: 50%;
   transform: translate(-50%, -50%); 
+  z-index: 998;
   font-family: 'Roboto Condensed', sans-serif;
 
   @media (max-width: 768px) {
@@ -47,9 +48,8 @@ const Botao_busca = styled.input`
   position: absolute;
   border: none;
   text-align: center;
-  &:focus{
+  &:focus {
     outline: none;
-
   }
 
   @media (max-width: 385px) {
@@ -61,10 +61,81 @@ const Botao_Filtro = styled.img`
   height: 20px;
   width: 20px;
   margin-left: 10px;
+  cursor: pointer;
 
   @media (max-width: 385px) {
     margin-left: 5px;
   }
 `;
 
-export { Botao_Container, Botao_busca, Botao_Filtro, Botao_Lupa };
+const Filtro_Container = styled.div`
+  position: absolute;
+  top: -4em; 
+  left: 29em;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #002855;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  border-radius: 8px;
+  z-index: 10;
+  display: ${({ isVisible }) => (isVisible ? "block" : "none")};
+
+  @media (max-width: 1080px) {
+    top: 3em;  
+    left: 50%;  
+    transform: translateX(-50%); 
+  }
+
+  @media (max-width: 768px) {
+    width: 200px;
+  }
+
+  @media (max-width: 385px) {
+    width: 150px;
+  }
+`;
+
+const Filtro_Selecao = styled.select`
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+`;
+
+const Filtro_Botao = styled.button`
+  width: 100%;
+  padding: 8px;
+  background-color: #002855;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:hover {
+    background-color: #003b66;
+  }
+;`
+
+const Filtro_Botao_Desfazer = styled.button`
+  width: 100%;
+  padding: 8px;
+  background-color: #f44336; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px; 
+
+  &:hover {
+    background-color: #e53935;
+  }
+`;
+
+export { Botao_Container, Botao_busca, Botao_Filtro, Botao_Lupa, Filtro_Container, Filtro_Selecao, Filtro_Botao, Filtro_Botao_Desfazer };
+

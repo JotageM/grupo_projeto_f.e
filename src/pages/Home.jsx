@@ -10,14 +10,27 @@ import dados_banner from "../data/dados-banner.json";
 const Home = () => {
   const [projetosFiltrados, setProjetosFiltrados] = useState(dados_projetos);
 
-  const aplicarFiltro = (filtro) => {
+  const aplicarFiltro = (filtros) => {
+    const { tituloOuSubtitulo, unidade, curso, tecnologias, periodo } = filtros;
+    
     setProjetosFiltrados(
-      dados_projetos.filter(
-        (el) =>
-          el.titulo.toLowerCase().startsWith(filtro.toLowerCase()) ||
-          el.subtitulo.toLowerCase().startsWith(filtro.toLowerCase())
-      )
+      dados_projetos.filter((el) => {
+        const matchTituloOuSubtitulo = el.titulo.toLowerCase().startsWith(tituloOuSubtitulo.toLowerCase()) || 
+                                       el.subtitulo.toLowerCase().startsWith(tituloOuSubtitulo.toLowerCase());
+
+        const matchUnidade = unidade ? el.unidade?.toLowerCase() === unidade.toLowerCase() : true;
+        const matchCurso = curso ? el.curso?.toLowerCase() === curso.toLowerCase() : true;
+        const matchTecnologias = tecnologias ? el.tecnologias?.some(tecnologia => 
+          tecnologia.toLowerCase().includes(tecnologias.toLowerCase())) : true;
+        const matchPeriodo = periodo ? el.periodo?.toLowerCase() === periodo.toLowerCase() : true;
+
+        return matchTituloOuSubtitulo && matchUnidade && matchCurso && matchTecnologias && matchPeriodo;
+      })
     );
+  };
+
+  const resetarFiltros = () => {
+    setProjetosFiltrados(dados_projetos);
   };
 
   return (
@@ -32,7 +45,7 @@ const Home = () => {
             subtitulo={el.subtitulo}
           />
         ))}
-      <Botao_de_busca Filtrar={aplicarFiltro} />
+      <Botao_de_busca Filtrar={aplicarFiltro} ResetarFiltros={resetarFiltros} />
       <ListContainer>
         {projetosFiltrados.map((el, index) => (
           <Card
@@ -51,3 +64,4 @@ const Home = () => {
 };
 
 export default Home;
+
