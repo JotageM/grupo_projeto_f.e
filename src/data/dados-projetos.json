@@ -67,6 +67,144 @@
             "url": "imagens/rogue.png",
             "subtitulo": "Rogue",
             "descricao": "Jogo feito em python com o professor de Programação Estruturada"
+        },
+        {
+          "id": "Projeto-1",
+          "titulo": "Arquitetura e Urbanismo",
+          "url": "imagens/arquitetura.png",
+          "subtitulo": "Casa Moderna",
+          "descricao": "Esse projeto é sobre uma inovação no mundo da arquitetura",
+          "unidade": "Centro",
+          "curso": "Arquitetura",
+          "tecnologias": ["Notion"],
+          "periodo": "2023-1"
+        },
+        {
+          "id": "Projeto-2",
+          "titulo": "Robótica",
+          "url": "imagens/robo.png",
+          "subtitulo": "Protótipo de rôbo",
+          "descricao": "Esse foi um projeto desenvolvido para uma luta de robôs",
+          "unidade": "Barra",
+          "curso": "engenharia-da-computacao",
+          "tecnologias": [ "C++"],
+          "periodo": "2024-2"
+        },
+        {
+          "id": "Projeto-3",
+          "titulo": "Economia",
+          "url": "imagens/economia.png",
+          "subtitulo": "Planilha de custos",
+          "descricao": "Projeto feito em parceria com a JM Finances, gerando um dashboard financeiro",
+          "unidade": "Centro",
+          "curso": "Economia",
+          "tecnologias": ["Excel", "Python", "Power-BI"],
+          "periodo": "2023-2"
+        },
+        {
+          "id": "Projeto-4",
+          "titulo": "Programação",
+          "url": "imagens/rogue.png",
+          "subtitulo": "Rogue",
+          "descricao": "Jogo feito em python com o professor de Programação Estruturada",
+          "unidade": "Barra",
+          "curso": "ciencia-de-dados",
+          "tecnologias": ["Python"],
+          "periodo": "2024-1"
+        },
+      
+        {   "id": "Projeto-1",
+            "titulo": "Arquitetura e Urbanismo",
+            "url": "imagens/arquitetura.png",
+            "subtitulo": "Casa Moderna",
+            "descricao": "Esse projeto é sobre uma inovação no mundo da arquitetura"
+        },
+        {   "id": "Projeto-2",
+            "titulo": "Robótica",
+            "url": "imagens/robo.png",
+            "subtitulo": "Protótipo de rôbo",
+            "descricao": "Esse foi um projeto desenvolvido para uma luta de robôs"
+        },
+        {   "id": "Projeto-3",
+            "titulo": "Economia",
+            "url": "imagens/economia.png",
+            "subtitulo": "Planilha de custos",
+            "descricao": "Projeto feito em parceria com a JM Finances, gerando um dashboard financeiro "
+        },
+        {   "id": "Projeto-4",
+            "titulo": "Programação",
+            "url": "imagens/rogue.png",
+            "subtitulo": "Rogue",
+            "descricao": "Jogo feito em python com o professor de Programação Estruturada"
+        },
+        {
+          "id": "Projeto-1",
+          "titulo": "Arquitetura e Urbanismo",
+          "url": "imagens/arquitetura.png",
+          "subtitulo": "Casa Moderna",
+          "descricao": "Esse projeto é sobre uma inovação no mundo da arquitetura",
+          "unidade": "Centro",
+          "curso": "Arquitetura",
+          "tecnologias": ["Notion"],
+          "periodo": "2023-1"
+        },
+        {
+          "id": "Projeto-2",
+          "titulo": "Robótica",
+          "url": "imagens/robo.png",
+          "subtitulo": "Protótipo de rôbo",
+          "descricao": "Esse foi um projeto desenvolvido para uma luta de robôs",
+          "unidade": "Barra",
+          "curso": "engenharia-da-computacao",
+          "tecnologias": [ "C++"],
+          "periodo": "2024-2"
+        },
+        {
+          "id": "Projeto-3",
+          "titulo": "Economia",
+          "url": "imagens/economia.png",
+          "subtitulo": "Planilha de custos",
+          "descricao": "Projeto feito em parceria com a JM Finances, gerando um dashboard financeiro",
+          "unidade": "Centro",
+          "curso": "Economia",
+          "tecnologias": ["Excel", "Python", "Power-BI"],
+          "periodo": "2023-2"
+        },
+        {
+          "id": "Projeto-4",
+          "titulo": "Programação",
+          "url": "imagens/rogue.png",
+          "subtitulo": "Rogue",
+          "descricao": "Jogo feito em python com o professor de Programação Estruturada",
+          "unidade": "Barra",
+          "curso": "ciencia-de-dados",
+          "tecnologias": ["Python"],
+          "periodo": "2024-1"
+        },
+      
+        {   "id": "Projeto-1",
+            "titulo": "Arquitetura e Urbanismo",
+            "url": "imagens/arquitetura.png",
+            "subtitulo": "Casa Moderna",
+            "descricao": "Esse projeto é sobre uma inovação no mundo da arquitetura"
+        },
+        {   "id": "Projeto-2",
+            "titulo": "Robótica",
+            "url": "imagens/robo.png",
+            "subtitulo": "Protótipo de rôbo",
+            "descricao": "Esse foi um projeto desenvolvido para uma luta de robôs"
+        },
+        {   "id": "Projeto-3",
+            "titulo": "Economia",
+            "url": "imagens/economia.png",
+            "subtitulo": "Planilha de custos",
+            "descricao": "Projeto feito em parceria com a JM Finances, gerando um dashboard financeiro "
+        },
+        {   "id": "Projeto-4",
+            "titulo": "Programação",
+            "url": "imagens/rogue.png",
+            "subtitulo": "Rogue",
+            "descricao": "Jogo feito em python com o professor de Programação Estruturada"
         }
         
 

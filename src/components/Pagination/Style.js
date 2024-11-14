@@ -1,30 +1,25 @@
 import styled from "styled-components";
 
-const Pagination_container = styled.div`
-    display: flex;
-    gap: 10px; /* Espaçamento entre os números */
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    font-family: 'Roboto Condensed', sans-serif;
-    
-    
+const PaginationContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px; // Adiciona um "respiro" embaixo
+`;
 
 
-`
+const PageButton = styled.button`
+  padding: 8px 16px;
+  margin: 0 4px;
+  background-color: ${({ active }) => (active ? "#007bff" : "#f1f1f1")};
+  border: 1px solid #ddd;
+  color: ${({ active }) => (active ? "#fff" : "#333")};
+  cursor: pointer;
 
-const Pagination_number = styled.p`
+  &:hover {
+    background-color: ${({ active }) => (active ? "#0056b3" : "#ddd")};
+  }
+`;
 
-    font-size: 1.5em; /* Tamanho da fonte */
-    padding: 5px 10px; /* Espaçamento interno */
-    border: 1px solid transparent; /* Borda inicial transparente */
-    font-weight: bold;
-    cursor: pointer;
-    
-
-
-`
-
-export {Pagination_container, Pagination_number};
-
+export {PageButton, PaginationContainer}
 

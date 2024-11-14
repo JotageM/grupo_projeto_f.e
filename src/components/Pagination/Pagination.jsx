@@ -1,13 +1,24 @@
-import {Pagination_container, Pagination_number} from "./Style";
+import { PageButton, PaginationContainer } from "./Style";
 
-const Pagination = () => (
+const Pagination = ({ projectsPerPage, totalProjects, paginate, currentPage }) => {
+  const pageNumbers = [];
+  for (let i = 1; i <= Math.ceil(totalProjects / projectsPerPage); i++) {
+    pageNumbers.push(i);
+  }
 
-    <Pagination_container>
+  return (
+    <PaginationContainer>
+      {pageNumbers.map((number) => (
+        <PageButton
+          key={number}
+          onClick={() => paginate(number)}
+          active={number === currentPage}
+        >
+          {number}
+        </PageButton>
+      ))}
+    </PaginationContainer>
+  );
+};
 
-        <Pagination_number>1 2 3 4 5 6</Pagination_number>
-
-    </Pagination_container>
-    
-    );
-    
-    export default Pagination;
+export default Pagination;

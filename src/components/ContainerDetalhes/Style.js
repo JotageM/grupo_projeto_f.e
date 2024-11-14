@@ -4,10 +4,12 @@ import styled from "styled-components";
 
 const ResponsiveImage = styled.img`
     width: 100%;
-    height: auto;
+    height: 100%;
     max-width: 100%;
     object-fit: contain;
-    max-width: 650px;
+    max-width: 700px;
+    max-height: 500px;
+    
     @media (max-width: 1200px) {
         width: 80%;
         height: auto;

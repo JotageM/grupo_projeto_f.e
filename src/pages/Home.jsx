@@ -9,29 +9,42 @@ import dados_banner from "../data/dados-banner.json";
 
 const Home = () => {
   const [projetosFiltrados, setProjetosFiltrados] = useState(dados_projetos);
+  const [currentPage, setCurrentPage] = useState(1);
+  const projectsPerPage = 12;
 
   const aplicarFiltro = (filtros) => {
     const { tituloOuSubtitulo, unidade, curso, tecnologias, periodo } = filtros;
-    
-    setProjetosFiltrados(
-      dados_projetos.filter((el) => {
-        const matchTituloOuSubtitulo = el.titulo.toLowerCase().startsWith(tituloOuSubtitulo.toLowerCase()) || 
-                                       el.subtitulo.toLowerCase().startsWith(tituloOuSubtitulo.toLowerCase());
+    const novosProjetosFiltrados = dados_projetos.filter((el) => {
+      const matchTituloOuSubtitulo = el.titulo.toLowerCase().startsWith(tituloOuSubtitulo.toLowerCase()) || 
+                                     el.subtitulo.toLowerCase().startsWith(tituloOuSubtitulo.toLowerCase());
+      const matchUnidade = unidade ? el.unidade?.toLowerCase() === unidade.toLowerCase() : true;
+      const matchCurso = curso ? el.curso?.toLowerCase() === curso.toLowerCase() : true;
+      const matchTecnologias = tecnologias ? el.tecnologias?.some(tecnologia => 
+        tecnologia.toLowerCase().includes(tecnologias.toLowerCase())) : true;
+      const matchPeriodo = periodo ? el.periodo?.toLowerCase() === periodo.toLowerCase() : true;
 
-        const matchUnidade = unidade ? el.unidade?.toLowerCase() === unidade.toLowerCase() : true;
-        const matchCurso = curso ? el.curso?.toLowerCase() === curso.toLowerCase() : true;
-        const matchTecnologias = tecnologias ? el.tecnologias?.some(tecnologia => 
-          tecnologia.toLowerCase().includes(tecnologias.toLowerCase())) : true;
-        const matchPeriodo = periodo ? el.periodo?.toLowerCase() === periodo.toLowerCase() : true;
+      return matchTituloOuSubtitulo && matchUnidade && matchCurso && matchTecnologias && matchPeriodo;
+    });
 
-        return matchTituloOuSubtitulo && matchUnidade && matchCurso && matchTecnologias && matchPeriodo;
-      })
-    );
+    setProjetosFiltrados(novosProjetosFiltrados);
+    setCurrentPage(1); 
   };
 
   const resetarFiltros = () => {
     setProjetosFiltrados(dados_projetos);
+    setCurrentPage(1); 
   };
+
+  // Lógica de paginação
+  const indexOfLastProject = currentPage * projectsPerPage;
+  const indexOfFirstProject = indexOfLastProject - projectsPerPage;
+  const currentProjects = projetosFiltrados.slice(indexOfFirstProject, indexOfLastProject);
+
+  const paginate = (pageNumber) => {
+    setCurrentPage(pageNumber);
+    window.scrollTo({ top: 0, behavior: "smooth" }); 
+  };
+  
 
   return (
     <>
@@ -47,7 +60,7 @@ const Home = () => {
         ))}
       <Botao_de_busca Filtrar={aplicarFiltro} ResetarFiltros={resetarFiltros} />
       <ListContainer>
-        {projetosFiltrados.map((el, index) => (
+        {currentProjects.map((el, index) => (
           <Card
             key={index}
             id={el.id}
@@ -58,10 +71,19 @@ const Home = () => {
           />
         ))}
       </ListContainer>
-      <Pagination />
+      <Pagination
+        projectsPerPage={projectsPerPage}
+        totalProjects={projetosFiltrados.length}
+        paginate={paginate}
+        currentPage={currentPage}
+      />
     </>
   );
 };
 
 export default Home;
+
+
+
+
 
