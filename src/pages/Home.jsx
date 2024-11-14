@@ -6,6 +6,7 @@ import Banner from "../components/Banner/Banner";
 import Botao_de_busca from "../components/Botao-de-busca/Botao-de-busca";
 import dados_projetos from "../data/dados-projetos.json";
 import dados_banner from "../data/dados-banner.json";
+import Header from "../components/Header/Header";
 
 const Home = () => {
   const [projetosFiltrados, setProjetosFiltrados] = useState(dados_projetos);
@@ -48,6 +49,7 @@ const Home = () => {
 
   return (
     <>
+    <Header></Header>
       {dados_banner
         .filter((el) => el.exibirHome !== false)
         .map((el, index) => (

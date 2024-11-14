@@ -8,7 +8,6 @@ import Header from "./components/Header/Header.jsx";
 import { GlobalStyle } from "./Style.js";
 import ScrollToTop from "./components/Scroll-to-top/Scroll-to-top";
 
-
 const container = document.getElementById("root");
 const root = createRoot(container);
 
@@ -21,15 +20,10 @@ onAuthStateChanged(auth, (user) => {
 });
 
 root.render(
-    
   <React.StrictMode>
-    
-    <Header>
-      <RouterProvider router={router} />
-      
-      
-    </Header>
-    
-    <GlobalStyle />
+    <RouterProvider router={router}>
+      <ScrollToTop />
+      <GlobalStyle />
+    </RouterProvider>
   </React.StrictMode>
 );

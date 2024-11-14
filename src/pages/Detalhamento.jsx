@@ -1,6 +1,7 @@
 import Banner from "../components/Banner/Banner.jsx";
 import { Link, useLoaderData } from "react-router-dom";
 import ContainerDetalhes from "../components/ContainerDetalhes/ContainerDetalhes.jsx";
+import Header from "../components/Header/Header.jsx";
 
 const Detalhamento = () => {
   const { banner, detalhes } = useLoaderData(); 
@@ -16,6 +17,7 @@ const Detalhamento = () => {
 
   return (
     <>
+    <Header></Header>
       <Banner
         key={banner.id}
         id={banner.id}

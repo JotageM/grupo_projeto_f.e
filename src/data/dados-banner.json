@@ -30,6 +30,12 @@
         "titulo": "Rogue",
         "subtitulo": "Gabriel Corrêa , João Gabriel Miguel , Estevão Batista , Enzo Lazzarotto",
         "exibirHome": false
+    },
+    {
+        "id": "sobre-nos",
+        "titulo": "Sobre Nós",
+        "subtitulo": "Conheça os responsáveis por tornar esse projeto real",
+        "exibirHome": false
     }
 
 

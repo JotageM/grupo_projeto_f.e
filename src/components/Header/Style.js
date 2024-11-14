@@ -35,12 +35,17 @@ const MenuItem = styled.div`
   font-family: 'Roboto Condensed', sans-serif;
   cursor: pointer;
   font-size: 20px;
+  color: #002555; 
 
+  a {
+    color: inherit;
+  }
 
   @media (max-width: 768px) {
     display: none;
   }
-`
+`;
+
 
 const MenuButton = styled.div`
   font-family: 'Roboto Condensed', sans-serif;
