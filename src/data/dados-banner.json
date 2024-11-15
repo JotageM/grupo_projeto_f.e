@@ -1,0 +1,44 @@
+[
+    {
+        "id": "banner",
+        "titulo": "Projetos",
+        "subtitulo": "Conheça os projetos feitos por alunos e professores do IBMEC"
+    },
+
+    {
+        "id": "Projeto-1",
+        "titulo": "Casa Moderna",
+        "subtitulo": "Esse projeto é sobre uma inovação no mundo da arquitetura",
+        "exibirHome": false
+    },
+
+    {
+        "id": "Projeto-2",
+        "titulo": "Protótipo de rôbo",
+        "subtitulo": "Esse é um projeto que o João vai me dar mas não ta sabendo pedir",
+        "exibirHome": false
+    },
+
+    {
+        "id": "Projeto-3",
+        "titulo": "Planilha de custos",
+        "subtitulo": "Projeto feito em parceria com a JM Finances, gerando um dashboard financeiro ",
+        "exibirHome": false
+    },
+
+    {
+        "id": "Projeto-4",
+        "titulo": "Rogue",
+        "subtitulo": "Gabriel Corrêa , João Gabriel Miguel , Estevão Batista , Enzo Lazzarotto",
+        "exibirHome": false
+    },
+    {
+        "id": "sobre-nos",
+        "titulo": "Sobre Nós",
+        "subtitulo": "Conheça os responsáveis por tornar esse projeto real",
+        "exibirHome": false
+    }
+
+
+]
+
