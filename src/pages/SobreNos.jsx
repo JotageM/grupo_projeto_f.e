@@ -4,6 +4,7 @@ import dados_banner from "../data/dados-banner.json";
 import CardPessoa from "../components/Card_Pessoa/CardPessoa";
 import Informacao from "../components/Container-SobreNos/Container-SobreNos";
 import styled from "styled-components";
+import { useTranslation } from "react-i18next";
 
 const CardsContainer = styled.div`
   display: flex;
@@ -13,45 +14,45 @@ const CardsContainer = styled.div`
 `;
 
 const SobreNos = () => {
-  const bannerSobreNos = dados_banner.find(el => el.id === "sobre-nos");
-
+  const banner = dados_banner.find(el => el.id === "sobre-nos");
+  const { t } = useTranslation();
+  
   const integrantes = [
     {
       imagem: "/imagens/Pedro.png",
       nome: "Pedro Camaz",
       idade: 22,
-      curso: "Ciência de Dados e I.A"
+      curso: "ciencia_de_dados"
     },
     {
       imagem: "/imagens/Gabriel.png",
       nome: "Gabriel Corrêa",
       idade: 18,
-      curso: "Ciência de Dados e I.A"
+      curso: "ciencia_de_dados"
     },
     {
       imagem: "/imagens/Joao.png",
       nome: "João Gabriel",
       idade: 24,
-      curso: "Ciência de Dados e I.A"
+      curso: "ciencia_de_dados"
     },
     {
       imagem: "/imagens/Vinicius.png",
       nome: "Vinicius da Luz",
       idade: 18,
-      curso: "Engenharia da Computação"
+      curso: "engenharia_da_computacao"
     }
   ];
 
   return (
     <div>
       <Header />
-      {bannerSobreNos && (
-        <Banner
-          id={bannerSobreNos.id}
-          titulo={bannerSobreNos.titulo}
-          subtitulo={bannerSobreNos.subtitulo}
-        />
-      )}
+      <Banner
+        key={banner.id}
+        id={banner.id}
+        titulo={t(`banner_${banner.id}_titulo`)}
+        subtitulo={t(`banner_${banner.id}_subtitulo`)}
+      />
       <CardsContainer>
         {integrantes.map((integrante, index) => (
           <CardPessoa
@@ -59,7 +60,7 @@ const SobreNos = () => {
             imagem={integrante.imagem}
             nome={integrante.nome}
             idade={integrante.idade}
-            curso={integrante.curso}
+            curso={t(integrante.curso)}
           />
         ))}
       </CardsContainer>

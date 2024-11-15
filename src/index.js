@@ -4,9 +4,12 @@ import { RouterProvider } from "react-router-dom";
 import { auth } from "./config/Firebase";
 import { onAuthStateChanged } from "firebase/auth";
 import router from "./routes";
-import Header from "./components/Header/Header.jsx";
+
 import { GlobalStyle } from "./Style.js";
 import ScrollToTop from "./components/Scroll-to-top/Scroll-to-top";
+
+import './i18n';
+
 
 const container = document.getElementById("root");
 const root = createRoot(container);

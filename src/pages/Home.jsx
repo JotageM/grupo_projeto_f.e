@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next"; 
 import Card from "../components/Card/Card";
 import ListContainer from "../components/ListContainer/ListContiner";
 import Pagination from "../components/Pagination/Pagination";
@@ -9,6 +10,8 @@ import dados_banner from "../data/dados-banner.json";
 import Header from "../components/Header/Header";
 
 const Home = () => {
+  const { t } = useTranslation();
+
   const [projetosFiltrados, setProjetosFiltrados] = useState(dados_projetos);
   const [currentPage, setCurrentPage] = useState(1);
   const projectsPerPage = 12;
@@ -19,7 +22,10 @@ const Home = () => {
       const matchTituloOuSubtitulo = el.titulo.toLowerCase().startsWith(tituloOuSubtitulo.toLowerCase()) || 
                                      el.subtitulo.toLowerCase().startsWith(tituloOuSubtitulo.toLowerCase());
       const matchUnidade = unidade ? el.unidade?.toLowerCase() === unidade.toLowerCase() : true;
-      const matchCurso = curso ? el.curso?.toLowerCase() === curso.toLowerCase() : true;
+
+      
+      const matchCurso = curso ? t(el.curso)?.toLowerCase() === curso.toLowerCase() : true;
+
       const matchTecnologias = tecnologias ? el.tecnologias?.some(tecnologia => 
         tecnologia.toLowerCase().includes(tecnologias.toLowerCase())) : true;
       const matchPeriodo = periodo ? el.periodo?.toLowerCase() === periodo.toLowerCase() : true;
@@ -36,7 +42,6 @@ const Home = () => {
     setCurrentPage(1); 
   };
 
-  // Lógica de paginação
   const indexOfLastProject = currentPage * projectsPerPage;
   const indexOfFirstProject = indexOfLastProject - projectsPerPage;
   const currentProjects = projetosFiltrados.slice(indexOfFirstProject, indexOfLastProject);
@@ -45,31 +50,31 @@ const Home = () => {
     setCurrentPage(pageNumber);
     window.scrollTo({ top: 0, behavior: "smooth" }); 
   };
-  
 
   return (
     <>
-    <Header></Header>
-      {dados_banner
-        .filter((el) => el.exibirHome !== false)
-        .map((el, index) => (
-          <Banner
-            key={index}
-            id={el.id}
-            titulo={el.titulo}
-            subtitulo={el.subtitulo}
-          />
-        ))}
+      <Header/>
+     {dados_banner
+      .filter((el) => el.exibirHome !== false)
+      .map((el, index) => (
+        <Banner
+          key={index}
+          id={el.id}
+          titulo={t(`banner_${el.id}_titulo`)}
+          subtitulo={t(`banner_${el.id}_subtitulo`)}
+        />
+      ))}
+
       <Botao_de_busca Filtrar={aplicarFiltro} ResetarFiltros={resetarFiltros} />
       <ListContainer>
         {currentProjects.map((el, index) => (
           <Card
             key={index}
             id={el.id}
-            titulo={el.titulo}
+            titulo={t(`projeto_${el.id}_titulo`)}
             src={el.url}
-            subtitulo={el.subtitulo}
-            descricao={el.descricao}
+            subtitulo={t(`projeto_${el.id}_subtitulo`)}
+            descricao={t(`projeto_${el.id}_descricao`)}
           />
         ))}
       </ListContainer>
@@ -84,6 +89,10 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+
 
 
 
