@@ -63,7 +63,11 @@ const MenuButton = styled.div`
 `
 const HamburgerButton = styled.div`
 
-  display: block; 
+  display: inline-block; 
+
+  button{
+    cursor: pointer;
+  }
 
   @media (min-width: 768px) {
     
@@ -73,5 +77,54 @@ const HamburgerButton = styled.div`
     
   }
 `
+const Ham_container = styled.div`
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  width: 130px;
+  height: 120px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 14px 20px;
+  right: 60px;
+  top: 80px;
+  font-family: 'Roboto Condensed', sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  
+  
 
-export { Top, Container, MenuItem, MenuButton, HamburgerButton }
+
+`;
+
+const Ham_item = styled.div`
+
+cursor: pointer;
+margin: 8px;
+transition: background-color 0.3s ease, color 0.3s ease;
+color: #003170; 
+
+
+`
+
+const Ham_leng = styled.div`
+
+
+
+cursor: pointer;
+margin: 8px;
+color: #003170;
+
+`
+
+
+
+
+
+export { Top, Container, MenuItem, MenuButton, HamburgerButton, Ham_item, Ham_leng, Ham_container }
